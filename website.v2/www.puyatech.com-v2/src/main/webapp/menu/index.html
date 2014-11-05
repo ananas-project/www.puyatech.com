@@ -8,46 +8,143 @@
 <meta name="author" content="">
 <link rel="icon" href="../../favicon.ico">
 
-<title>Carousel Template for Bootstrap</title>
-
 <!-- Bootstrap core CSS -->
 <link href="./../css/bootstrap.min.css" rel="stylesheet">
 
+<style type="text/css">
+table {
+	width: 100%;
+}
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+img {
+	width: 100%;
+}
 
-<!-- Custom styles for this template -->
-<link href="carousel.css" rel="stylesheet">
+.init-hide {
+	display: none;
+}
+
+.footer-panel {
+	font-size: 24px;
+	padding: 20px;
+}
+
+.text {
+	font-size: 24px;
+}
+
+.text-h3 {
+	font-size: 40px;
+}
+
+.text-box {
+	padding: 20px;
+}
+
+.screen-shot {
+	padding: 20px;
+}
+
+.head {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.bg-color {
+	background: #7f7f7f;
+}
+
+.screen-view {
+	padding: 10px;
+}
+
+body {
+	background: #dddddd;
+}
+
+.container {
+	background: #ffffff;
+	box-shadow: 2px 5px 15px #888888;
+}
+</style>
 </head>
 
 <body>
 
+
 	<div class="container">
 
-		<div class='head'></div>
-		<div class='text'></div>
-		<div class='screen-shot'></div>
-		<div class='contact'></div>
+		<div class='head bg-color'>
+			<img src='header.png' />
+		</div>
+		<div class='text'>
+			<div class='text-box'>
+				如今智能手机广泛普及、微信用户数以亿计。不少餐饮业者越来越意识到移动互联网的重要，陆续开通了自家的微信公众号。但是...除了向客户推送广告，还能做些什么呢？
+			</div>
+			<table>
+				<tr>
+					<td style='width: 25%' class='text-box'>
+						<div class='text-h3'>忙而不乱，从容应对</div>
+						<div class='text-p'>生意太好，服务员忙得根本停不下来？把繁琐交给我们，让服务员从容地为顾客提供更优质的服务。</div>
+					</td>
+					<td style='width: 25%' class='text-box'>
+						<div class='text-h3'>月更？周更？日更？还是 ...</div>
+						<div class='text-p'>现在就更！
+							更新一次菜单要多久？即刻生效的电子菜单让大厨自由发挥无穷的创意，满足口味瞬息万变的顾客需求！</div>
+					</td>
+					<td style='width: 25%' class='text-box'>
+						<div class='text-h3'>比bigger更有bigger</div>
+						<div class='text-p'>岂止于大！手机虽小，容量可不小。相比体积庞大的传统菜单，通过小小的手机屏幕可以了解到更多关于您的菜品、餐厅以及美食文化。</div>
+					</td>
+					<td style='width: 25%' class='text-box'>
+						<div class='text-h3'>天衣无缝</div>
+						<div class='text-p'>无缝整合您的公众号和点菜服务。一个关注通通搞定，让客户端和账号密码成为过去式。</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class='screen-shot bg-color'>
+			<table>
+				<tr>
+					<td class='screen-view'><img src='ss-2.png' /></td>
+					<td class='screen-view'><img src='ss-4.png' /></td>
+					<td class='screen-view'><img src='ss-7.png' /></td>
+					<td class='screen-view'><img src='ss-8.png' /></td>
+				</tr>
+
+				<tr class='init-hide'>
+					<td class='screen-view'><img src='ss-1.png' /></td>
+					<td class='screen-view'><img src='ss-3.png' /></td>
+					<td class='screen-view'><img src='ss-5.png' /></td>
+					<td class='screen-view'><img src='ss-6.png' /></td>
+				</tr>
+
+			</table>
+		</div>
+		<div class='contact'>
+			<table>
+				<tr>
+					<td style='width: 50%' class='footer-panel'>
+						<div>欢迎各种方式咨询、洽谈业务：</div>
+						<div>ＱＱ(包括空间/邮箱)：233-709-4808</div>
+						<div>电话：0773-211-9756</div>
+						<div>网址：www.puyatech.com</div>
+					</td>
+					<td style='width: 50%' class='footer-panel'>
+						<div>桂林普亚网络科技有限公司</div>
+						<div>地址：桂林市象山区民族里74号203室</div>
+						<div>版权所有(C)2014 普亚科技. 保留所有权利</div>
+						<div>“朴雅菜单”、以及菠萝图案是普亚科技的商标</div>
+					</td>
+				</tr>
+			</table>
+		</div>
 
 	</div>
 
 
-	<!-- /.carousel -->
-	<!-- /.container -->
-	<!-- Bootstrap core JavaScript
-    ================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
 	<script src="./../js/bootstrap.min.js"></script>
 
-	<!--  
-    <script src="../../assets/js/docs.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug --  >
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    -->
 </body>
 </html>
